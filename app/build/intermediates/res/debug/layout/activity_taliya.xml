@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" android:layout_height="60dp" 
+        android:layout_width="fill_parent"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="#61298e" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:background="#99ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#ff0026"
+                android:gravity="right"
+                android:padding="2dp"
+                android:id="@+id/linearLayout"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="کارت شارژ تالیا"
+                    android:id="@+id/txt1"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp" />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/taliyafff"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:padding="2dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/twoentyth"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20.000 ریال"
+                    android:id="@+id/txt2"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:padding="2dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/fiftyth"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50.000 ریال"
+                    android:id="@+id/txt3"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:padding="2dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/onehundredth"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100.000 ریال"
+                    android:id="@+id/txt4"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:padding="2dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/twohundredth"
+                android:gravity="center"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200.000 ریال"
+                    android:id="@+id/txt5"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/layout/activity_taliya.xml -->

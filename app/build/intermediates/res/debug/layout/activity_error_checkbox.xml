@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#55000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTwo"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="18dp"
+        android:lineSpacingExtra="15dp"
+        android:padding="3dp"
+        android:text="آیا می خواهید شماره کارت بانکی شما به صورت کامل از نرم افزار پاک شود؟" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:background="#d2d2d2"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="1dp"
+            android:background="#000000"
+            android:id="@+id/btnNo"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#c4c4c4"
+                android:gravity="center"
+                android:id="@+id/relativeLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="بلی"
+                    android:id="@+id/txtThree"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="1dp"
+            android:background="#000000"
+            android:id="@+id/btnYes"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#c4c4c4"
+                android:gravity="center"
+                android:id="@+id/relativeLayout" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="خیر"
+                    android:id="@+id/txtFour"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/layout/activity_error_checkbox.xml -->

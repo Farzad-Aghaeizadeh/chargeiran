@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\user10\Desktop\new chargeiran\main\app\src\main\assets"><file name="fonts/arial.ttf" path="C:\Users\user10\Desktop\new chargeiran\main\app\src\main\assets\fonts\arial.ttf"/><file name="fonts/farsi.ttf" path="C:\Users\user10\Desktop\new chargeiran\main\app\src\main\assets\fonts\farsi.ttf"/></source></dataSet><dataSet config="debug"><source path="C:\Users\user10\Desktop\new chargeiran\main\app\src\debug\assets"/></dataSet></merger>

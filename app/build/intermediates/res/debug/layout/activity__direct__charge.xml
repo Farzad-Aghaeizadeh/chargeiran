@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/DirectMenu"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#dcdcdc"
+              android:orientation="vertical" >
+
+    <include layout="@layout/header" android:layout_height="60dp"
+             android:layout_width="fill_parent"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="#61298e" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#55ffffff">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="17dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/llDirect_to_irancell"
+                    android:background="@drawable/direct_to_irancell"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageView9"
+                        android:src="@drawable/irancellfff"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ایرانسل"
+                        android:id="@+id/textView3"
+                        android:textColor="#744f92"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_gravity="center|right"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/llDirect_to_hamraheaval"
+                    android:background="@drawable/direct_to_hamraheaval"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/hamraheavalff"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="همراه اول"
+                        android:id="@+id/textView4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="34dp"
+                        android:layout_gravity="center|right"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/llDirect_to_rightell"
+                    android:background="@drawable/direct_to_rightel"
+                    android:layout_margin="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/icon_rightel"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="رایتل"
+                        android:id="@+id/textView7"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_gravity="center|right"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/llDirect_to_vimax_irancell"
+                    android:background="@drawable/menu_btn_background"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="وایمکس ایرانسل"
+                        android:id="@+id/textView8"
+                        android:textColor="#744f92"
+                        android:textSize="18dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/layout/activity__direct__charge.xml -->

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" android:layout_height="60dp" 
+        android:layout_width="fill_parent"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="#61298e" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:background="#99ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:gravity="center_vertical|right"
+                android:layout_marginTop="80dp"
+                android:id="@+id/lylIrancell">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ایرانسل"
+                    android:id="@+id/txt1"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="-5dp" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/irancellff"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:gravity="center_vertical|right"
+                android:layout_marginTop="25dp"
+                android:id="@+id/lylHamraheaval">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="همراه اول"
+                    android:id="@+id/txt2"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="-5dp" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/hamraheavalff"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:gravity="center_vertical|right"
+                android:layout_marginTop="25dp"
+                android:id="@+id/lylRightel">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رایتل"
+                    android:id="@+id/txt3"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="-5dp" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/rightelff"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient"
+                android:gravity="center_vertical|right"
+                android:layout_marginTop="25dp"
+                android:id="@+id/lylTaliya"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تالیا"
+                    android:id="@+id/txt4"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="-5dp" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/taliyaff"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:padding="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

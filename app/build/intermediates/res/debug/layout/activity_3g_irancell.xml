@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" android:layout_height="60dp" 
+        android:layout_width="fill_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#744f92" >
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="ایرانسل"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/txt3g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="3G"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:typeface="sans"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="انتخاب بسته"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:background="#99ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/irancellfff"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:id="@+id/three">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10/000 ریال"
+                    android:id="@+id/txt4"
+
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 روزه 40 مگابایت"
+                    android:id="@+id/txt3"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:textDirection="rtl"
+                    android:gravity="right"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:id="@+id/five">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 روزه 100 مگابایت "
+                    android:id="@+id/txt5"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20/000 ریال"
+                    android:id="@+id/txt6"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:id="@+id/ten">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 روزه 270 مگابایت"
+                    android:id="@+id/txt7"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50/000 ریال"
+                    android:id="@+id/txt8"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:id="@+id/fifteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15 روزه 600 مگابایت"
+                    android:id="@+id/txt9"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100/000 ریال"
+                    android:id="@+id/txt10"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:id="@+id/twenty">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="به صرفه ترین"
+                    android:id="@+id/txt11"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200/000 ریال"
+                    android:id="@+id/txt12"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/layout/activity_3g_irancell.xml -->

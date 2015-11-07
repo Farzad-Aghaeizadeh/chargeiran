@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="chargeprices">
+        <item>1000 تومان</item>
+        <item>2000 تومان</item>
+        <item>5000 تومان</item>
+        <item>10000 تومان</item>
+        <item>20000 تومان</item>
+	    </string-array>
+    <string-array name="chargetypes">
+        <item>شارژ معمولی</item>
+        <item>شارژ شگفت انگیز</item>
+        <item>قبض دائمی ایرانسل</item>
+        <item>بسته 3G ایرانسل</item>
+        <item>وایمکس ایرانسل</item>
+	    </string-array>
+    <string-array name="nums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+    <string-array name="numsvimax">
+        <item>اعتباری</item>
+        <item>دائمی</item>
+     
+	    </string-array>
+    <string-array name="operates">
+        <item>ایرانسل</item>
+        <item>همراه اول</item>
+        <item>رایتل</item>
+        <item>تالیا</item>
+	    </string-array>
+    <string-array name="sharj_mostaghim_hamraheaval">
+        <item>10.000 ریال</item>
+        <item>20.000 ریال</item>
+        <item>50.000 ریال</item>
+        <item>100.000 ریال</item>
+        <item>200.000 ریال</item>
+    </string-array>
+    <string-array name="tgtypes">
+        <item>بسته 3 روزه 40 مگابایت</item>
+        <item>بسته 5 روزه 100 مگابایت</item>
+        <item>بسته 10 روزه 270 مگابایت</item>
+        <item>بسته 15 روزه 600 مگابایت</item>
+        <item>بسته 20 روزه 2500 مگابایت</item>
+	    </string-array>
+    <!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_about">
+    <string name="radio_ghabz">قبض دائمی</string>
+    <string name="radio_normal">عادی</string>
+    <string name="radio_inc">شگفت انگیز</string>
+
+
+
+
+
+    </string>
+    <string name="app_name">شارژ الکترونیکی</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spinnerPrompt">انتخاب کنید</string>
+    <string name="title_activity_activity__direct__charge">Activity_Direct_Charge</string>
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+
+    </style>
+</resources>
