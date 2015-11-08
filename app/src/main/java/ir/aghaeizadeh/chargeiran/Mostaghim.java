@@ -303,6 +303,7 @@ public class Mostaghim extends Master  {
             @Override
             public void onClick(View view) {
 
+                SaveForShake();
         G.Error=0;
 
                 try{

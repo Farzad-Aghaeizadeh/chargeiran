@@ -414,7 +414,7 @@ public class Activity_Payment extends Master {
         btnsubmit.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                SaveForShake();
                 G.Error=0;
                 try{
 
