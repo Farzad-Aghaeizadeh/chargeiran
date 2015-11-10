@@ -11,7 +11,14 @@
     <string name="rightel">رایتل</string>
     <string name="hamrah_aval">همراه</string>
     <string name="vimax_irancel">وایمکس ایرانسل</string>
+    <string name="shake_off">لرزشگر غیر فعال شد</string>
+    <string name="shake_on">لرزشگر فعال شد</string>
 
+    <string name="shakeTv1">لرزش گر خدمت جدیدی است که در راستای افزایش سرعت خرید برای کاربران عزیز فراهم شده است</string>
+    <string name="shakeTv2">طرز کارکرد لرزش گر :</string>
+    <string name="shakeTv3">پس از اولین خرید ، اطلاعات مربوط به خرید (بجز رمز دوم) برای سهولت در خرید های بعد در نرم افزار ذخیره می شود </string>
+    <string name="shakeTv4">پس از ثبت اولین خرید فقط کافیست وارد برنامه شوید و تلفن خود را تکان دهید تا خرید قبل خود را تکرار کنید</string>
+    <string name="shakeTv5">جهت حفظ امنیت اطلاعات کارت بانکی شما ، رمز دوم ، در نرم افزار ذخیره نمی شود.</string>
 
 
 

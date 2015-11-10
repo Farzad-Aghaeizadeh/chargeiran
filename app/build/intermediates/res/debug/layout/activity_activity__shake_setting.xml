@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/DirectMenu"
+              android:id="@+id/shakeMenu"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:background="#dcdcdc"
@@ -35,8 +35,10 @@
                 android:layout_gravity="center_horizontal"
                 android:textColor="#A44f92"
                 android:textStyle="bold"
-                android:textSize="20dp"/>
+                android:textSize="20dp"
+                android:onClick="onShakeCHeckBoxCheck"/>
             <TextView
+                android:id="@+id/tvShake1"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,6 +46,7 @@
                 android:textSize="18dp"
                 android:text="لرزش گر خدمت جدیدی است که در راستای افزایش سرعت خرید برای کاربران عزیز فراهم شده است"/>
             <TextView
+                android:id="@+id/tvShake2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textColor="#744f92"
@@ -54,26 +57,23 @@
                 android:text="طرز کارکرد لرزش گر : "/>
 
             <TextView
+                android:id="@+id/tvShake3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#744f92"
                 android:textSize="18dp"
                 android:text="پس از اولین خرید ، اطلاعات مربوط به خرید (بجز رمز دوم) برای سهولت در خرید های بعد در نرم افزار ذخیره می شود "/>
             <TextView
+                android:id="@+id/tvShake4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#744f92"
                 android:textSize="18dp"
                 android:text="پس از ثبت اولین خرید فقط کافیست وارد برنامه شوید و تلفن خود را تکان دهید تا خرید قبل خود را تکرار کنید"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#744f92"
-                android:textSize="18dp"
-                android:text="پس از ثبت اولین خرید فقط کافیست وارد برنامه شوید و تلفن خود را تکان دهید تا خرید قبل خود را تکرار کنید"/>
 
             <TextView
+                android:id="@+id/tvShake5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#744f92"

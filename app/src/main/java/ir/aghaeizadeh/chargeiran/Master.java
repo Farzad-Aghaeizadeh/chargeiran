@@ -35,6 +35,8 @@ public class Master extends Activity {
      * Called when the activity is first created.
      */
 
+    protected final static String SHAKE_KEY = "SHAKE_STATUS";
+    protected boolean shakeIsOn = true;
     private String classKey = "shakeClassKey";
     protected SensorManager mSensorManager;
     protected Sensor mAccelerometer;
@@ -43,9 +45,9 @@ public class Master extends Activity {
     public void SaveForShake()
     {
 
-        shakePref = getApplicationContext().getSharedPreferences("com.example.app", Context.MODE_PRIVATE);
+        shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shakeAdress", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = shakePref.edit();
-        editor.putString(classKey,"ir.aghaeizadeh.chargeiran."+getClass().getSimpleName());
+        editor.putString(classKey, "ir.aghaeizadeh.chargeiran." + getClass().getSimpleName());
         editor.commit();
 
     }
@@ -58,14 +60,17 @@ public class Master extends Activity {
         public void onShake(int count)
         {
 
-            shakePref = getApplicationContext().getSharedPreferences("com.example.app", Context.MODE_PRIVATE);
+            shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shakeAdress", Context.MODE_PRIVATE);
             String className = shakePref.getString(classKey , null);
-            if (className == null)
-            Toast.makeText(getBaseContext(), className , Toast.LENGTH_SHORT).show();
+            shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shake", Context.MODE_PRIVATE);
+            boolean canShake = shakePref.getBoolean(SHAKE_KEY , false);
+
+//            if (className == null || canShake == false)
+//            Toast.makeText(getBaseContext(), className , Toast.LENGTH_SHORT).show();
             Intent intent = null;
             try
             {
-                if(className != null)
+                if(className != null && canShake == true)
                 {
                     intent = new Intent(getApplicationContext(), Class.forName(className));
                     intent.putExtra("Code", 1);
