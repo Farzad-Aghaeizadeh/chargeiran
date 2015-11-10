@@ -36,7 +36,7 @@ public class Home extends Master {
     }
 
 
-    LinearLayout btnMH,btnMI,btnMR,btnCodeCharge,btnvimax,btn3g,btnshare,btnSuport , llDirectCharge;
+    LinearLayout btnMH,btnMI,btnMR,btnCodeCharge,btnvimax,btn3g,btnshare,btnSuport , llDirectCharge ,llShakeSetting;
     ImageView aghaeizadeh;
     TextView txt3g,txt1,txt2,txt3,txt4,txt5,txt6,txt7,txt8,txt9,txt10,txt11,txt12,txt13;
 
@@ -68,6 +68,7 @@ public class Home extends Master {
     
 	private void initializeLayout() {
 
+		llShakeSetting = (LinearLayout) findViewById(R.id.llShake);
 		llDirectCharge = (LinearLayout) findViewById(R.id.llDirectCharge);
         btnCodeCharge=(LinearLayout) findViewById(R.id.btnCodeCharge);
 		btn3g=(LinearLayout) findViewById(R.id.btn3g);
@@ -86,6 +87,7 @@ public class Home extends Master {
         txt12=(TextView) findViewById(R.id.txt12);
         txt13=(TextView) findViewById(R.id.txt13);
         txt3g=(TextView) findViewById(R.id.txt3g);
+
 
 
 

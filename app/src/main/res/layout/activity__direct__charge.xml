@@ -9,12 +9,6 @@
     <include layout="@layout/header" android:layout_height="60dp"
              android:layout_width="fill_parent"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="fill_parent"
-        android:layout_height="2dp"
-        android:src="#61298e" />
-
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
@@ -60,7 +54,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ایرانسل"
-                        android:id="@+id/textView3"
+                        android:id="@+id/tvDirectIrancell"
                         android:textColor="#744f92"
                         android:textSize="18dp"
                         android:layout_marginLeft="40dp"
@@ -88,7 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="همراه اول"
-                        android:id="@+id/textView4"
+                        android:id="@+id/tvDirectHamrahAval"
                         android:textColor="#FFFFFF"
                         android:textSize="18dp"
                         android:layout_marginLeft="34dp"
@@ -116,7 +110,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="رایتل"
-                        android:id="@+id/textView7"
+                        android:id="@+id/tvDirectRightel"
                         android:textColor="#FFFFFF"
                         android:textSize="18dp"
                         android:layout_marginLeft="50dp"
@@ -138,7 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="وایمکس ایرانسل"
-                        android:id="@+id/textView8"
+                        android:id="@+id/tvDirectVimax"
                         android:textColor="#744f92"
                         android:textSize="18dp"
                         android:paddingLeft="5dp"

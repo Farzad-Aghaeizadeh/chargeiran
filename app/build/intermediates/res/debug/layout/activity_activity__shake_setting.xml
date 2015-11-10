@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/DirectMenu"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#dcdcdc"
+              android:orientation="vertical" >
+
+    <include layout="@layout/header" android:layout_height="60dp"
+             android:layout_width="fill_parent"/>
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#55ffffff">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="1dp"
+            android:gravity="right">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="فعال سازی لرزشگر"
+                android:id="@+id/chbShakeActive"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#A44f92"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#744f92"
+                android:textSize="18dp"
+                android:text="لرزش گر خدمت جدیدی است که در راستای افزایش سرعت خرید برای کاربران عزیز فراهم شده است"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#744f92"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:text="طرز کارکرد لرزش گر : "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#744f92"
+                android:textSize="18dp"
+                android:text="پس از اولین خرید ، اطلاعات مربوط به خرید (بجز رمز دوم) برای سهولت در خرید های بعد در نرم افزار ذخیره می شود "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#744f92"
+                android:textSize="18dp"
+                android:text="پس از ثبت اولین خرید فقط کافیست وارد برنامه شوید و تلفن خود را تکان دهید تا خرید قبل خود را تکرار کنید"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#744f92"
+                android:textSize="18dp"
+                android:text="پس از ثبت اولین خرید فقط کافیست وارد برنامه شوید و تلفن خود را تکان دهید تا خرید قبل خود را تکرار کنید"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#744f92"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:text="جهت حفظ امنیت اطلاعات کارت بانکی شما ، رمز دوم ، در نرم افزار ذخیره نمی شود."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/layout/activity_activity__shake_setting.xml -->

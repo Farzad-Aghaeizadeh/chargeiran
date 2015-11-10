@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ir.aghaeizadeh.chargeiran.Activity_Shake_setting">
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+</menu>
+<!-- From: file:/C:/Users/user10/Desktop/new%20chargeiran/main/app/src/main/res/menu/menu_activity__shake_setting.xml -->

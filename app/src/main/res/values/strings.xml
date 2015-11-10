@@ -3,16 +3,17 @@
 
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">شارژ الکترونیکی</string>
-    <string name="app_about">
+    <string name="app_about">Sharjiran</string>
     <string name="radio_ghabz">قبض دائمی</string>
     <string name="radio_normal">عادی</string>
     <string name="radio_inc">شگفت انگیز</string>
+    <string name="irancell">ایرانسل</string>
+    <string name="rightel">رایتل</string>
+    <string name="hamrah_aval">همراه</string>
+    <string name="vimax_irancel">وایمکس ایرانسل</string>
 
 
 
-
-
-    </string>
 
 
 
@@ -93,6 +94,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_activity__shake_setting">Activity_Shake_setting</string>
 
 
 

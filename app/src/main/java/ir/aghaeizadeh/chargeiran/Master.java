@@ -60,18 +60,23 @@ public class Master extends Activity {
 
             shakePref = getApplicationContext().getSharedPreferences("com.example.app", Context.MODE_PRIVATE);
             String className = shakePref.getString(classKey , null);
+            if (className == null)
             Toast.makeText(getBaseContext(), className , Toast.LENGTH_SHORT).show();
             Intent intent = null;
             try
             {
-                intent = new Intent(getApplicationContext(),Class.forName(className) );
+                if(className != null)
+                {
+                    intent = new Intent(getApplicationContext(), Class.forName(className));
+                    intent.putExtra("Code", 1);
+                    startActivity(intent);
+                }
             }
             catch (ClassNotFoundException e)
             {
                 e.printStackTrace();
             }
-            intent.putExtra("Code", 1);
-            startActivity(intent);
+
         }
     };
 

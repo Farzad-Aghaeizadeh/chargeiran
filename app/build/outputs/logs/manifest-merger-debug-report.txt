@@ -26,17 +26,17 @@ uses-permission#android.permission.CALL_PHONE
 ADDED from AndroidManifest.xml:9:5
 	android:name
 		ADDED from AndroidManifest.xml:9:22
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:11:5
 	android:maxSdkVersion
 		ADDED from AndroidManifest.xml:13:9
 	android:name
 		ADDED from AndroidManifest.xml:12:9
-android:uses-permission#android.permission.READ_PHONE_STATE
+uses-permission#android.permission.READ_PHONE_STATE
 ADDED from AndroidManifest.xml:14:5
 	android:name
-		ADDED from AndroidManifest.xml:14:30
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:15:5
 	android:maxSdkVersion
 		ADDED from AndroidManifest.xml:17:9
@@ -118,7 +118,7 @@ ADDED from AndroidManifest.xml:57:9
 		ADDED from AndroidManifest.xml:61:13
 	android:name
 		ADDED from AndroidManifest.xml:58:13
-activity#ir.aghaeizadeh.chargeiran.Aghaeizadeh
+activity#ir.aghaeizadeh.chargeiran.Activity_Irancell
 ADDED from AndroidManifest.xml:63:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:66:13
@@ -128,7 +128,7 @@ ADDED from AndroidManifest.xml:63:9
 		ADDED from AndroidManifest.xml:67:13
 	android:name
 		ADDED from AndroidManifest.xml:64:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Irancell
+activity#ir.aghaeizadeh.chargeiran.Activity_Hamraheaval
 ADDED from AndroidManifest.xml:69:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:72:13
@@ -138,7 +138,7 @@ ADDED from AndroidManifest.xml:69:9
 		ADDED from AndroidManifest.xml:73:13
 	android:name
 		ADDED from AndroidManifest.xml:70:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Hamraheaval
+activity#ir.aghaeizadeh.chargeiran.Activity_Rightel
 ADDED from AndroidManifest.xml:75:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:78:13
@@ -148,7 +148,7 @@ ADDED from AndroidManifest.xml:75:9
 		ADDED from AndroidManifest.xml:79:13
 	android:name
 		ADDED from AndroidManifest.xml:76:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Rightel
+activity#ir.aghaeizadeh.chargeiran.Activity_Taliya
 ADDED from AndroidManifest.xml:81:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:84:13
@@ -158,7 +158,7 @@ ADDED from AndroidManifest.xml:81:9
 		ADDED from AndroidManifest.xml:85:13
 	android:name
 		ADDED from AndroidManifest.xml:82:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Taliya
+activity#ir.aghaeizadeh.chargeiran.Activity_Payment
 ADDED from AndroidManifest.xml:87:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:90:13
@@ -168,7 +168,7 @@ ADDED from AndroidManifest.xml:87:9
 		ADDED from AndroidManifest.xml:91:13
 	android:name
 		ADDED from AndroidManifest.xml:88:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Payment
+activity#ir.aghaeizadeh.chargeiran.Activity_Payment_Vimax
 ADDED from AndroidManifest.xml:93:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:96:13
@@ -178,7 +178,7 @@ ADDED from AndroidManifest.xml:93:9
 		ADDED from AndroidManifest.xml:97:13
 	android:name
 		ADDED from AndroidManifest.xml:94:13
-activity#ir.aghaeizadeh.chargeiran.Activity_Payment_Vimax
+activity#ir.aghaeizadeh.chargeiran.Activity_3G_Irancell
 ADDED from AndroidManifest.xml:99:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:102:13
@@ -188,33 +188,33 @@ ADDED from AndroidManifest.xml:99:9
 		ADDED from AndroidManifest.xml:103:13
 	android:name
 		ADDED from AndroidManifest.xml:100:13
-activity#ir.aghaeizadeh.chargeiran.Activity_3G_Irancell
-ADDED from AndroidManifest.xml:105:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:108:13
-	android:label
-		ADDED from AndroidManifest.xml:107:13
-	android:theme
-		ADDED from AndroidManifest.xml:109:13
-	android:name
-		ADDED from AndroidManifest.xml:106:13
 activity#ir.aghaeizadeh.chargeiran.Activity_Payment_3G
-ADDED from AndroidManifest.xml:111:9
+ADDED from AndroidManifest.xml:106:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:114:13
+		ADDED from AndroidManifest.xml:109:13
 	android:label
-		ADDED from AndroidManifest.xml:113:13
+		ADDED from AndroidManifest.xml:108:13
 	android:theme
-		ADDED from AndroidManifest.xml:115:13
+		ADDED from AndroidManifest.xml:110:13
 	android:name
-		ADDED from AndroidManifest.xml:112:13
+		ADDED from AndroidManifest.xml:107:13
 activity#ir.aghaeizadeh.chargeiran.Activity_Direct_Charge
-ADDED from AndroidManifest.xml:117:9
+ADDED from AndroidManifest.xml:113:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:120:13
+		ADDED from AndroidManifest.xml:116:17
 	android:label
-		ADDED from AndroidManifest.xml:119:13
+		ADDED from AndroidManifest.xml:115:17
 	android:theme
-		ADDED from AndroidManifest.xml:121:13
+		ADDED from AndroidManifest.xml:117:17
 	android:name
-		ADDED from AndroidManifest.xml:118:13
+		ADDED from AndroidManifest.xml:114:17
+activity#ir.aghaeizadeh.chargeiran.Activity_Shake_setting
+ADDED from AndroidManifest.xml:120:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:123:13
+	android:label
+		ADDED from AndroidManifest.xml:122:13
+	android:theme
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
