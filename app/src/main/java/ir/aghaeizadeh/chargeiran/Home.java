@@ -90,6 +90,15 @@ public class Home extends Master {
 
 
 
+		llShakeSetting.setOnClickListener(new OnClickListener()
+		{
+			@Override
+			public void onClick(View v)
+			{
+				Intent intent = new Intent(getApplicationContext(),Activity_Shake_setting.class);
+				startActivity(intent);
+			}
+		});
 
         btnCodeCharge.setOnClickListener(new OnClickListener() {
 
