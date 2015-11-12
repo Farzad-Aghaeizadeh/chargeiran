@@ -165,7 +165,8 @@
                     android:orientation="horizontal"
                     android:background="@drawable/gradient"
                     android:layout_gravity="center"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:visibility="gone">
 
                     <TextView
                         android:id="@+id/txt7"
