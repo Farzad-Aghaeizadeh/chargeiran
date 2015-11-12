@@ -295,7 +295,7 @@ public class Activity_Payment_3G extends Master {
                     try{
                     mobilenumber = mobile.getText().toString().trim().substring(0,4);
 
-                    final String[] nums = { "0935", "0936", "0937", "0938", "0939", "0930","0933","0901","0902" };
+                    final String[] nums = { "0935", "0936", "0937", "0938", "0939", "0930","0933","0901","0902" , "0903 " };
 
 
                     if (!Arrays.asList(nums).contains(mobilenumber)) {
