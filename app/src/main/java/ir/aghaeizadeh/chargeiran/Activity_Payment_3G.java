@@ -283,7 +283,7 @@ public class Activity_Payment_3G extends Master {
             @Override
             public void onClick(View view) {
 
-                SaveForShake();
+                SaveForShake(0);
 
                 try{
 

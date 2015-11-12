@@ -248,7 +248,7 @@ public class MostaghimRightel extends Master {
 //                CToast(test);
 //                CToast(str);
 
-                SaveForShake();
+                SaveForShake(0);
 
         G.Error=0;
 

@@ -272,7 +272,7 @@ public class MostaghimHamraheAval extends Master {
             public void onClick(View view) {
 
 
-                SaveForShake();
+                SaveForShake(0);
 
         G.Error=0;
 

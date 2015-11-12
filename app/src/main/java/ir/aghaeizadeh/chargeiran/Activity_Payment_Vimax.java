@@ -263,7 +263,7 @@ public class Activity_Payment_Vimax extends Master {
             @Override
             public void onClick(View view) {
 
-                SaveForShake();
+                SaveForShake(0);
                 G.Error =0;
                 try{
 

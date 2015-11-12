@@ -36,20 +36,25 @@ public class Master extends Activity {
      */
 
     protected final static String SHAKE_KEY = "SHAKE_STATUS";
+    protected final static String PAYMENT_CODE_KEY = "PAYMENT_CODE";
     protected boolean shakeIsOn = true;
     private String classKey = "shakeClassKey";
     protected SensorManager mSensorManager;
     protected Sensor mAccelerometer;
     protected ShakeDetector mShakeDetector;
     SharedPreferences shakePref ;
-    public void SaveForShake()
+    public void SaveForShake(int code)
     {
 
         shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shakeAdress", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = shakePref.edit();
         editor.putString(classKey, "ir.aghaeizadeh.chargeiran." + getClass().getSimpleName());
         editor.commit();
-
+        if (code != 0)
+        {
+            editor.putInt(SHAKE_KEY, code);
+            editor.commit();
+        }
     }
 
 
@@ -62,8 +67,12 @@ public class Master extends Activity {
 
             shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shakeAdress", Context.MODE_PRIVATE);
             String className = shakePref.getString(classKey , null);
+            int shakeCode  = shakePref.getInt(SHAKE_KEY , 0);
             shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shake", Context.MODE_PRIVATE);
-            boolean canShake = shakePref.getBoolean(SHAKE_KEY , false);
+            boolean canShake = shakePref.getBoolean(SHAKE_KEY, false);
+
+
+
 
 //            if (className == null || canShake == false)
 //            Toast.makeText(getBaseContext(), className , Toast.LENGTH_SHORT).show();
@@ -73,7 +82,10 @@ public class Master extends Activity {
                 if(className != null && canShake == true)
                 {
                     intent = new Intent(getApplicationContext(), Class.forName(className));
-                    intent.putExtra("Code", 1);
+                    if ( shakeCode != 0)
+                        intent.putExtra("Code",shakeCode);
+                    else
+                        intent.putExtra("Code", 1);
                     startActivity(intent);
                 }
             }
