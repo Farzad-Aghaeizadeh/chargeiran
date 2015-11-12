@@ -29,6 +29,9 @@
       </layout>
     </layouts>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f98ad9f-6112-4a99-8295-6f169e7a8f6b" name="Default" comment="" />
     <ignored path="main.iws" />
@@ -61,10 +64,31 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_irancell.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_irancell.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity_Irancell.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Irancell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57123655">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +116,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="activity_payment_3g.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_payment_3g.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.862068">
+              <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Activity_3G_Irancell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_3G_Irancell.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,33 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity_Payment_3G.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activity_Payment_3G.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46735394">
-              <caret line="297" column="122" selection-start-line="297" selection-start-column="122" selection-end-line="297" selection-end-column="122" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_activity__shake_setting.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__shake_setting.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="20" column="104" selection-start-line="20" selection-start-column="104" selection-end-line="20" selection-end-column="104" />
               <folding />
             </state>
@@ -976,13 +1000,14 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Direct_Charge.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/ShakeDetector.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Master.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_activity__shake_setting.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Shake_setting.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_3g.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java" />
       </list>
     </option>
   </component>
@@ -1038,6 +1063,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1304,7 +1361,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1313,7 +1370,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15071507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15071507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1345,25 +1402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Shake_setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__shake_setting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1387,9 +1425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1449,9 +1485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1625,17 +1659,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_irancell.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/MostaghimRightel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1683,16 +1706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1702,13 +1715,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Master.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2141058">
-          <caret line="68" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Direct_Charge.java">
@@ -1726,6 +1732,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_3G_Irancell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Shake_setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_activity__shake_setting.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1737,10 +1767,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Shake_setting.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1756,18 +1786,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_3G_Irancell.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_payment_3g.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.862068">
+          <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_irancell.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="297" column="122" selection-start-line="297" selection-start-column="122" selection-end-line="297" selection-end-column="122" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Irancell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57123655">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>

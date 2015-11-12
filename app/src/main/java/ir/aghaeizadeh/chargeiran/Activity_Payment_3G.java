@@ -131,33 +131,33 @@ public class Activity_Payment_3G extends Master {
 
 
 
-
-        if (Code==3){
-            lylPrice.setVisibility(View.VISIBLE);
-            SetText("3" , "روزه" , "40" , "مگابایت" , txtType);
-            SetText("10.000" , "ریال" , null , null , txtPrice);
-
-        }else if (Code==5){
-            lylPrice.setVisibility(View.VISIBLE);
-            SetText("5" , "روزه" , "100" , "مگابایت" , txtType);
-            SetText("20.000" , "ریال" , null , null , txtPrice);
-
-        }else if (Code==10){
-            lylPrice.setVisibility(View.VISIBLE);
-            SetText("10" , "روزه" , "270" , "مگابایت" , txtType);
-            SetText("50.000" , "ریال" , null , null , txtPrice);
-
-        }else if (Code==15){
-            lylPrice.setVisibility(View.VISIBLE);
-            SetText("30" , "روزه" , "5000" , "مگابایت" , txtType);
-            SetText("218.000" , "ریال" , null , null , txtPrice);
-
-        }else if (Code==20){
-            lylPrice.setVisibility(View.VISIBLE);
-            SetText(null , "ماهانه", "200" , "مگابایت", txtType);
-            SetText("55.000" , "ریال" , null , null , txtPrice);
-
-        }
+//
+//        if (Code==3){
+//            lylPrice.setVisibility(View.VISIBLE);
+//            SetText("3" , "روزه" , "40" , "مگابایت" , txtType);
+//            SetText("10.000" , "ریال" , null , null , txtPrice);
+//
+//        }else if (Code==5){
+//            lylPrice.setVisibility(View.VISIBLE);
+//            SetText("5" , "روزه" , "100" , "مگابایت" , txtType);
+//            SetText("20.000" , "ریال" , null , null , txtPrice);
+//
+//        }else if (Code==10){
+//            lylPrice.setVisibility(View.VISIBLE);
+//            SetText("10" , "روزه" , "270" , "مگابایت" , txtType);
+//            SetText("50.000" , "ریال" , null , null , txtPrice);
+//
+//        }else if (Code==15){
+//            lylPrice.setVisibility(View.VISIBLE);
+//            SetText("30" , "روزه" , "5000" , "مگابایت" , txtType);
+//            SetText("218.000" , "ریال" , null , null , txtPrice);
+//
+//        }else if (Code==20){
+//            lylPrice.setVisibility(View.VISIBLE);
+//            SetText(null , "ماهانه", "200" , "مگابایت", txtType);
+//            SetText("55.000" , "ریال" , null , null , txtPrice);
+//
+//        }
 
 
 
@@ -194,9 +194,7 @@ public class Activity_Payment_3G extends Master {
 
                     banki.clearFocus();
                     bankii.requestFocus();
-
                 }
-
             }
 
             @Override
@@ -387,33 +385,36 @@ public class Activity_Payment_3G extends Master {
 
 
 
-
-        if(Code==3){
-
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*1*"+G.bankall+""+Uri.encode("#");
+            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*"+G.bankall+""+Uri.encode("#");
             startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
 
-        }else if(Code==5){
 
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*2*"+G.bankall+""+Uri.encode("#");
-            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
-
-        }else if(Code==10){
-
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*3*"+G.bankall+""+Uri.encode("#");
-            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
-
-        } else if(Code==15){
-
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*4*"+G.bankall+""+Uri.encode("#");
-            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
-
-        }else if(Code==20){
-
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*0*1*"+G.bankall+""+Uri.encode("#");
-            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
-
-        }
+//        if(Code==3){
+//
+//            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*1*"+G.bankall+""+Uri.encode("#");
+//            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
+//
+//        }else if(Code==5){
+//
+//            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*2*"+G.bankall+""+Uri.encode("#");
+//            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
+//
+//        }else if(Code==10){
+//
+//            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*3*"+G.bankall+""+Uri.encode("#");
+//            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
+//
+//        } else if(Code==15){
+//
+//            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*4*"+G.bankall+""+Uri.encode("#");
+//            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
+//
+//        }else if(Code==20){
+//
+//            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*0*1*"+G.bankall+""+Uri.encode("#");
+//            startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
+//
+//        }
 
     }
 

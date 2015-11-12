@@ -112,7 +112,7 @@ public class Home extends Master {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent=new Intent(getApplicationContext(), Activity_3G_Irancell.class);
+				Intent intent=new Intent(getApplicationContext(), Activity_Payment_3G.class);
 				intent.putExtra("Code", 3);
 				startActivity(intent);
 			}

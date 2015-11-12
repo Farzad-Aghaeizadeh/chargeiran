@@ -78,7 +78,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_gravity="center"
-                    android:gravity="center|right">
+                    android:gravity="center|right"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -108,7 +109,8 @@
                     android:layout_gravity="center"
                     android:gravity="center|right"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/lylPrice">
+                    android:id="@+id/lylPrice"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="wrap_content"
