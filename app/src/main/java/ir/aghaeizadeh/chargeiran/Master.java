@@ -69,7 +69,7 @@ public class Master extends Activity {
             String className = shakePref.getString(classKey , null);
             int shakeCode  = shakePref.getInt(SHAKE_KEY , 0);
             shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shake", Context.MODE_PRIVATE);
-            boolean canShake = shakePref.getBoolean(SHAKE_KEY, false);
+            boolean canShake = shakePref.getBoolean(SHAKE_KEY, true);
 
 
 

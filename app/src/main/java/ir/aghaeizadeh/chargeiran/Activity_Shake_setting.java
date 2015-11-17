@@ -36,7 +36,7 @@ public class Activity_Shake_setting extends Master
 
         final CheckBox chbShake =  (CheckBox)findViewById(R.id.chbShakeActive);
         shakePref = getApplicationContext().getSharedPreferences("ir.aghaeizadeh.chargeiran.shake", Context.MODE_PRIVATE);
-        boolean canShake = shakePref.getBoolean(SHAKE_KEY , false);
+        boolean canShake = shakePref.getBoolean(SHAKE_KEY , true);
         if (canShake)
         {
             chbShake.setChecked(true);

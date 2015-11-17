@@ -317,13 +317,6 @@ public class MostaghimHamraheAval extends Master {
 
                     }
 
-
-
-
-
-
-
-
                     if((G.Error ==10)||(G.Error==5)||(G.Error==6)){
 
                         Dialog_Error();
@@ -337,9 +330,6 @@ public class MostaghimHamraheAval extends Master {
                         DoCharge();
 
                     }
-
-
-
 
 
                 }catch (Exception e){
