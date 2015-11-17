@@ -36,8 +36,8 @@ public class G extends Application {
 	public static String bankii="";
 	public static String bankiii="";
 	public static String bankall="";
-	public static String TotalCode="*789*9875*"+operator+"*"+type+"*"+mobile+"*"+price+"*"+bank+Uri.encode("#");
-	public static String mainCode="*789*9875";
+	public static String TotalCode="*789*1731*"+operator+"*"+type+"*"+mobile+"*"+price+"*"+bank+Uri.encode("#");
+	public static String mainCode="*789*1731";
 	public static int APIlevel=0;
 	public static int Error=0;
 
