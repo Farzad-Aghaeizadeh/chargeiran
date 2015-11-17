@@ -187,6 +187,7 @@
 
 
                 <TextView
+                    android:visibility="gone"
                     android:id="@+id/txt6"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -198,6 +199,7 @@
                     android:gravity="center" />
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:orientation="horizontal"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent" >
@@ -283,6 +285,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:orientation="horizontal"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -325,7 +328,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
-                        android:text="پرداخت"
+                        android:text="انتخاب بسته"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="#ffffff"
                         android:textSize="20dp"
@@ -333,6 +336,7 @@
                 </LinearLayout>
 
                 <TextView
+                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="جهت افزایش امنیت اطلاعات کارت بانکی شما،"
@@ -342,6 +346,7 @@
                     android:layout_marginTop="8dp" />
 
                 <TextView
+                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="رمز دوم، در نرم افزار ذخیره نمی شود."
@@ -350,6 +355,7 @@
                     android:textSize="13dp" />
 
                 <TextView
+                    android:visibility="gone"
                     android:id="@+id/debug"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
