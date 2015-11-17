@@ -38,9 +38,9 @@ public class Support extends Master {
         txt3.setText(Farsi.Convert("021-89711111"));
         txt4.setText(Farsi.Convert("و در تمامی زمان ها از طریق"));
         if(G.APIlevel>=10){
-            txt5.setText(Farsi.Convert("ارسال ایمیل با ما تماس بگیرید."));
+            txt5.setText(Farsi.Convert("تماس بگیرید."));
         }else{
-            txt5.setText(Farsi.Convert(".ارسال ایمیل با ما تماس بگیرید"));
+            txt5.setText(Farsi.Convert(".تماس بگیرید"));
 
         }
 
