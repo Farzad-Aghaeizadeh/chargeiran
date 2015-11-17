@@ -293,7 +293,7 @@ public class Activity_Payment_3G extends Master {
                     try{
                     mobilenumber = mobile.getText().toString().trim().substring(0,4);
 
-                    final String[] nums = { "0935", "0936", "0937", "0938", "0939", "0930","0933","0901","0902" , "0903 " };
+                    final String[] nums = { "0935", "0936", "0937", "0938", "0939", "0930","0933","0901","0902" ,"0903"};
 
 
                     if (!Arrays.asList(nums).contains(mobilenumber)) {
@@ -385,7 +385,8 @@ public class Activity_Payment_3G extends Master {
 
 
 
-            String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*"+G.bankall+""+Uri.encode("#");
+       //     String url = "tel:"+G.mainCode+"*1*"+G.mobile+"*4*"+G.bankall+""+Uri.encode("#");
+            String url = "tel:*789*1731*1*09301112233*4"+Uri.encode("#");
             startActivity(new Intent("android.intent.action.CALL" , Uri.parse(url)));
 
 

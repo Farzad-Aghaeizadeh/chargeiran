@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mostaghim.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mostaghim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Mostaghim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="315" column="125" selection-start-line="315" selection-start-column="125" selection-end-line="315" selection-end-column="125" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity_Payment_3G.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Activity_Payment_3G.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="295" column="45" selection-start-line="295" selection-start-column="45" selection-end-line="295" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.31451613">
+              <caret line="295" column="118" selection-start-line="295" selection-start-column="118" selection-end-line="295" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -960,7 +960,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_3g.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_Vimax.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/MostaghimRightel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/support.xml" />
@@ -969,6 +968,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Shake_setting.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/G.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Mostaghim.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java" />
       </list>
     </option>
   </component>
@@ -1084,7 +1084,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="YT910RJP4J" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="022AQQ7N3A126033" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="myAndroid" />
     <property name="FullScreen" value="false" />
   </component>
@@ -1303,7 +1303,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1312,7 +1312,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15071507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15071507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1752,18 +1752,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Mostaghim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="45" selection-start-line="295" selection-start-column="45" selection-end-line="295" selection-end-column="45" />
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Mostaghim.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/aghaeizadeh/chargeiran/Activity_Payment_3G.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="315" column="125" selection-start-line="315" selection-start-column="125" selection-end-line="315" selection-end-column="125" />
+        <state vertical-scroll-proportion="0.31451613">
+          <caret line="295" column="118" selection-start-line="295" selection-start-column="118" selection-end-line="295" selection-end-column="118" />
           <folding />
         </state>
       </provider>
