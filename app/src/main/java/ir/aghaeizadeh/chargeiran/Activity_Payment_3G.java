@@ -72,7 +72,7 @@ public class Activity_Payment_3G extends Master {
         txt5.setText(Farsi.Convert("شماره موبایل"));
         txt6.setText(Farsi.Convert("شماره کارت بانکی"));
         txt7.setText(Farsi.Convert("ذخیره شماره کارت"));
-        txt8.setText(Farsi.Convert("پرداخت"));
+        txt8.setText(Farsi.Convert("انتخاب بسته"));
         if(G.APIlevel>=10){
             txt3.setText(Farsi.Convert("بسته :"));
             txt4.setText(Farsi.Convert("قیمت :"));
