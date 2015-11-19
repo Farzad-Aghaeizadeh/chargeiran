@@ -119,10 +119,6 @@ public class Activity_Direct_Charge extends Activity
 
     }
 
-
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {

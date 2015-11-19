@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">شارژ الکترونیکی</string>
+    <string name="app_name">شارژیران</string>
     <string name="app_about">Sharjiran</string>
     <string name="radio_ghabz">قبض دائمی</string>
     <string name="radio_normal">عادی</string>
@@ -27,8 +27,6 @@
 
     <string name="spinnerPrompt">انتخاب کنید</string>
 
-    
-    
         <string-array name="chargetypes">
         <item>شارژ معمولی</item>
         <item>شارژ شگفت انگیز</item>
