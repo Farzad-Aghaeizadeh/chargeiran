@@ -5,11 +5,14 @@ package ir.aghaeizadeh.chargeiran;
 import java.io.File;
 import java.util.ArrayList;
 
+import android.content.ComponentName;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.graphics.Typeface;
 import android.hardware.SensorManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,14 +20,66 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import android.widget.Toast;
 import org.w3c.dom.Text;
 
 public class Home extends Master {
-    /** Called when the activity is first created. */
-    @Override
+
+	/////////////////////////////////////////////////////////////////////
+
+
+	IUpdateCheckService service;
+	UpdateServiceConnection connection;
+	private static final String TAG = "UpdateCheck";
+
+	class UpdateServiceConnection implements ServiceConnection
+	{
+		public void onServiceConnected(ComponentName name, IBinder boundService) {
+			service = IUpdateCheckService.Stub.asInterface((IBinder) boundService);
+			try {
+				long vCode = service.getVersionCode("ir.aghaeizadeh.chargeiran");
+				//Toast.makeText(Home.this, "Version Code:" + vCode, Toast.LENGTH_LONG).show();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			Log.e(TAG, "onServiceConnected(): Connected");
+		}
+
+		public void onServiceDisconnected(ComponentName name) {
+			service = null;
+			Log.e(TAG, "onServiceDisconnected(): Disconnected");
+		}
+	}
+
+
+	private void initService() {
+		Log.i(TAG, "initService()");
+		connection = new UpdateServiceConnection();
+		Intent i = new Intent(
+				"com.farsitel.bazaar.service.UpdateCheckService.BIND");
+		i.setPackage("com.farsitel.bazaar");
+		boolean ret = bindService(i, connection, getApplicationContext().BIND_AUTO_CREATE);
+		Log.e(TAG, "initService() bound value: " + ret);
+	}
+
+	private void releaseService() {
+		unbindService(connection);
+		connection = null;
+		Log.d(TAG, "releaseService(): unbound.");
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		releaseService();
+	}
+
+	//////////////////////////////////////////////////////////////////////
+	/** Called when the activity is first created. */
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+		initService();
         setContentView(R.layout.home);
         G.APIlevel = android.os.Build.VERSION.SDK_INT;
         InitializeFont();
